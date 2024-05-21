@@ -1,0 +1,22 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-966-514
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:39:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:39:35] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:39:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:39:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-966-514
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:40:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:40:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:40:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+INFO:werkzeug:127.0.0.1 - - [21/May/2024 22:40:32] "POST /review HTTP/1.1" 200 -
